@@ -62,6 +62,7 @@ const Tarif = () => {
               price={"790 ₽"}
               color={"color6"}
               border={"border6"}
+              
             />
           </div>
         </div>

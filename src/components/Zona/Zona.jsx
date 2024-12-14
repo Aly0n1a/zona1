@@ -4,12 +4,14 @@ import Tarif from '../Tarif/Tarif'
 
 
 
+
+
 const Zona = ({text, color}) => {
   return (
     <>
       <div className={s.zona}>
         <div className="container">
-          <h1 className={s.wrap}>ЗОНА {text}</h1>
+          <h1 className={s.wrap}>ЗОНА <span className={color}>{text}</span></h1>
           <p className={s.har}>ХАРАКТЕРИСТИКИ</p>
           <div className={s.cards}>
             <div className={s.card}>
@@ -73,7 +75,7 @@ const Zona = ({text, color}) => {
           </div>
 
           <Tarif />
-          
+    
           
         </div>
       </div>

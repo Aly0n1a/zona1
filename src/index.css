@@ -72,3 +72,35 @@ border:3px solid #9e2888;
 .border{
 border:3px solid rgba(255, 255, 255, 0.05);
 }
+.border9{
+border:3px solid #149EF2;
+}
+.border8{
+border:3px solid #18BEFF;
+}
+.border7{
+border:3px solid  #1CDDFF;
+}
+.border10{
+border:3px solid #107EC2;
+}
+.border11{
+border:3px solid #0C5F91;
+}
+.border12{
+border:3px solid #083F61;
+}
+
+
+.pink{
+    
+    color: #E637B7;
+}
+
+.blue{
+    color: #149EF2;
+}
+
+.sin{
+    color: #2636C0;
+}

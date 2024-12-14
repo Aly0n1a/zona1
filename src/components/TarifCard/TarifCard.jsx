@@ -9,11 +9,12 @@ const TarifCard = ({
   accessTf,
   img,
   border,
+  border2
 }) => {
   return (
     <>
       <div className={s.card}>
-        <div className={`${s.box} ${border}`}>
+        <div className={`${s.box} ${border} ${border2}`}>
           <p className={s.text1}>{tarif}</p>
           <p className={s.text2}>{accessTf}</p>
           <img src={img} alt="" />

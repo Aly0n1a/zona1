@@ -1,12 +1,12 @@
 import React from "react";
 import s from "./Ps5.module.scss";
 import TarifCard from "../TarifCard/TarifCard";
-const Ps5 = ({ text }) => {
+const Ps5 = ({ text, color}) => {
   return (
     <>
       <div className={s.ps5}>
         <div className="container">
-          <h1 className={s.wrap}>ЗОНА {text}</h1>
+          <h1 className={s.wrap}>ЗОНА <span className={color}>{text}</span></h1>
           <p className={s.title}>ТАРИФЫ И ЦЕНЫ</p>
           <div className={s.cards}>
             <TarifCard
